@@ -1,0 +1,13 @@
+To get the 'Alien Spore Creature' into project:
+	Inside the 'Thesis' folder on OneDrive is the file "AlienBiomass_11.usdc".
+	This file can be downloaded and imported into Unreal engine (with default settings).
+		To attach the model to the character model:
+		Content > Systems > Enemies > PassiveAlienSpore > BP_PassiveAlienSpore
+			In the mesh, look for 'Plane'.
+				Look for 'Geometry Cache' on the left side of the screen.
+				Type in 'Plane' and select the mesh. Only 1 option will appear here.
+				Materials should auto-apply but if not te materials are listed in order below.
+					Material 0: M_LaserPointer-Core
+					Material 1: M_BlackBackground
+					Material 2: M_LaserPointer-Core
+					Material 3: M_LaserPointer-Core
